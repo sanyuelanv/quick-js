@@ -1,8 +1,8 @@
 {
-  "name": "temp",
+  "name": "@name",
   "version": "1.0.0",
   "description": "",
-  "main": "$name",
+  "main": "",
   "scripts": {
     "dep": "NODE_ENV='production' webpack -p --progress --colors --config webpack.production.config.js",
     "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
